@@ -17,10 +17,12 @@
  *       portée lue via <srpgWeapon:ID> dans leurs notes
  *
  * - Si la distance sujet → cible dépasse la portée :
- *       → action ANNULÉE = unitée “éteinte”
+ *       → action ANNULÉE = unité “éteinte”
  *
  * - Preview :
- *       → si le défenseur ne peut pas réagir : skill vide, hit 0, dmg 0, crit 0, range 0
+ *       → si le défenseur ne peut pas réagir :
+ *            on affiche la compétence ID2 (Garde) côté défenseur
+ *            avec hit = 0, dmg = 0, crit/range/etc. = 0
  */
 
 (function() {
