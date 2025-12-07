@@ -26,7 +26,7 @@
  * REMARQUES
  * ----------------------------------------------------------------------------
  * - Le triangle ne s'applique que si :
- *       l'attaque est physique,
+ *       l'action inflige des Dégâts PV (attaque physique OU magique),
  *       l'attaquant a une arme,
  *       la cible a une arme.
  *
@@ -171,8 +171,12 @@
     const item = this.item();
     if (!item) return { hit: 0, dmg: 0 };
 
-    // Pas de triangle pour les attaques non physiques
-    if (item.hitType !== HITTYPE_PHYSICAL) return { hit: 0, dmg: 0 };
+    // ❗ CHANGEMENT ICI :
+    // Avant : on rejetait tout ce qui n'était pas "attaque physique".
+    // Maintenant : on applique le triangle à toute action qui fait des Dégâts PV.
+    if (!item.damage || item.damage.type === 0) {
+      return { hit: 0, dmg: 0 };
+    }
 
     const subject = this.subject();
     if (!subject || !target) return { hit: 0, dmg: 0 };
