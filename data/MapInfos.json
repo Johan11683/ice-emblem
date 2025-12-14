@@ -1,14 +1,20 @@
 [
 null,
 {"id":1,"expanded":true,"name":"Chapitre 1 - intro","order":2,"parentId":11,"scrollX":832,"scrollY":640},
-{"id":2,"expanded":false,"name":"Chapitre 0","order":10,"parentId":0,"scrollX":994,"scrollY":1386},
-{"id":3,"expanded":true,"name":"Chapitre 2","order":3,"parentId":0,"scrollX":994,"scrollY":1386},
+{"id":2,"expanded":true,"name":"0","order":14,"parentId":0,"scrollX":1026,"scrollY":1212},
+{"id":3,"expanded":true,"name":"Chapitre 2","order":3,"parentId":0,"scrollX":1038.857142857143,"scrollY":1188},
 {"id":4,"expanded":true,"name":"Chap2 retour au chateau","order":4,"parentId":3,"scrollX":994,"scrollY":1266},
 {"id":5,"expanded":true,"name":"Château démoniaque 2.5","order":5,"parentId":4,"scrollX":994,"scrollY":1386},
 {"id":6,"expanded":true,"name":"Château démoniaque 2.9","order":6,"parentId":4,"scrollX":994,"scrollY":1386},
 {"id":7,"expanded":true,"name":"Chapitre 2 - intro","order":7,"parentId":3,"scrollX":994,"scrollY":1296},
-{"id":8,"expanded":true,"name":"Chapitre 3","order":8,"parentId":0,"scrollX":994,"scrollY":624},
-{"id":9,"expanded":false,"name":"Chapitre 3 - intro","order":9,"parentId":8,"scrollX":994,"scrollY":986},
+{"id":8,"expanded":true,"name":"Chapitre 3","order":8,"parentId":0,"scrollX":1025.142857142857,"scrollY":1188},
+{"id":9,"expanded":true,"name":"Chapitre 3 - intro","order":9,"parentId":8,"scrollX":994,"scrollY":1386},
+{"id":10,"expanded":false,"name":"Chapitre 4 - intro","order":11,"parentId":12,"scrollX":1279.2,"scrollY":1191.6},
+{"id":11,"expanded":true,"name":"Chapitre 1","order":1,"parentId":0,"scrollX":727.1999999999999,"scrollY":831.5999999999999},
+{"id":12,"expanded":true,"name":"Chapitre 4","order":10,"parentId":0,"scrollX":652.3636363636364,"scrollY":747.2727272727273},
+{"id":13,"expanded":false,"name":"Chapitre 5 - intro","order":13,"parentId":14,"scrollX":1104,"scrollY":1296},
+{"id":14,"expanded":true,"name":"Chapitre 5","order":12,"parentId":0,"scrollX":1212,"scrollY":1386},
 null,
-{"id":11,"expanded":true,"name":"Chapitre 1","order":1,"parentId":0,"scrollX":832,"scrollY":640}
+{"id":16,"expanded":false,"name":"Chapitre 6 - intro","order":16,"parentId":17,"scrollX":1088,"scrollY":800},
+{"id":17,"expanded":false,"name":"Chapitre 6","order":15,"parentId":0,"scrollX":1212,"scrollY":1386}
 ]
