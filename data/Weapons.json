@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"- Griffes - ","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
-{"id":2,"animationId":16,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":99,"name":"Griffes","note":"<WeaponTriangle: 3, 15, 0 ; 1, -10, 0>\n<srpgWeaponSkill: 1>","params":[0,0,1,0,0,0,0,0],"price":0,"wtypeId":5},
+{"id":2,"animationId":16,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":99,"name":"Griffes","note":"<WeaponTriangle: 3, 15, 0 ; 1, -10, 0>\n<srpgWeaponSkill: 1>","params":[0,0,1,1,0,0,0,0],"price":0,"wtypeId":5},
 {"id":3,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":4,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"- Crocs - ","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":5,"animationId":6,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":97,"name":"Crocs","note":"<WeaponTriangle: 2, 15, 0; 3, -10, 0>\n<srpgWeaponSkill: 1>\n","params":[0,0,1,0,0,0,0,0],"price":0,"wtypeId":6},
